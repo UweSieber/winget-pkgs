@@ -6,17 +6,18 @@ PackageVersion: master
 InstallerType: nullsoft
 UpgradeBehavior: install
 ProductCode: kigo
+ReleaseDate: 2026-07-28
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/kigo/master/windows/kigo-master-896-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 43FCA7AF05755E25277BCE33AF483AC04C0E24FAA35CE973DEA7D9F5576F4D38
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/kigo/master/windows/kigo-master-936-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 340A97220AEE527C12256A8E0056FE65969D4FE9DE9C2778C5BE809606D093AA
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/kigo/master/windows/kigo-master-896-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 43FCA7AF05755E25277BCE33AF483AC04C0E24FAA35CE973DEA7D9F5576F4D38
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/kigo/master/windows/kigo-master-936-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 340A97220AEE527C12256A8E0056FE65969D4FE9DE9C2778C5BE809606D093AA
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
